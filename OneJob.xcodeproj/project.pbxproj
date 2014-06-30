@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079D35C519621C270042BAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D35C419621C270042BAED /* Foundation.framework */; };
+		079D35C719621C270042BAED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D35C619621C270042BAED /* CoreGraphics.framework */; };
+		079D35C919621C270042BAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D35C819621C270042BAED /* UIKit.framework */; };
+		079D35CF19621C270042BAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079D35CD19621C270042BAED /* InfoPlist.strings */; };
+		079D35D119621C270042BAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D35D019621C270042BAED /* main.m */; };
+		079D35D519621C270042BAED /* _JOBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D35D419621C270042BAED /* _JOBAppDelegate.m */; };
+		079D35D819621C270042BAED /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079D35D619621C270042BAED /* Main_iPhone.storyboard */; };
+		079D35DB19621C270042BAED /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079D35D919621C270042BAED /* Main_iPad.storyboard */; };
+		079D35DE19621C270042BAED /* _JOBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D35DD19621C270042BAED /* _JOBViewController.m */; };
+		079D35E019621C270042BAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079D35DF19621C270042BAED /* Images.xcassets */; };
+		079D35E719621C270042BAED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D35E619621C270042BAED /* XCTest.framework */; };
+		079D35E819621C270042BAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D35C419621C270042BAED /* Foundation.framework */; };
+		079D35E919621C270042BAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D35C819621C270042BAED /* UIKit.framework */; };
+		079D35F119621C270042BAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079D35EF19621C270042BAED /* InfoPlist.strings */; };
+		079D35F319621C270042BAED /* OneJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D35F219621C270042BAED /* OneJobTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079D35EA19621C270042BAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079D35B919621C270042BAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079D35C019621C270042BAED;
+			remoteInfo = OneJob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079D35C119621C270042BAED /* OneJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079D35C419621C270042BAED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		079D35C619621C270042BAED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		079D35C819621C270042BAED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		079D35CC19621C270042BAED /* OneJob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneJob-Info.plist"; sourceTree = "<group>"; };
+		079D35CE19621C270042BAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		079D35D019621C270042BAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		079D35D219621C270042BAED /* OneJob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneJob-Prefix.pch"; sourceTree = "<group>"; };
+		079D35D319621C270042BAED /* _JOBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _JOBAppDelegate.h; sourceTree = "<group>"; };
+		079D35D419621C270042BAED /* _JOBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _JOBAppDelegate.m; sourceTree = "<group>"; };
+		079D35D719621C270042BAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		079D35DA19621C270042BAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		079D35DC19621C270042BAED /* _JOBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _JOBViewController.h; sourceTree = "<group>"; };
+		079D35DD19621C270042BAED /* _JOBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _JOBViewController.m; sourceTree = "<group>"; };
+		079D35DF19621C270042BAED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		079D35E519621C270042BAED /* OneJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079D35E619621C270042BAED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		079D35EE19621C270042BAED /* OneJobTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneJobTests-Info.plist"; sourceTree = "<group>"; };
+		079D35F019621C270042BAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		079D35F219621C270042BAED /* OneJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneJobTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079D35BE19621C270042BAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D35C719621C270042BAED /* CoreGraphics.framework in Frameworks */,
+				079D35C919621C270042BAED /* UIKit.framework in Frameworks */,
+				079D35C519621C270042BAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079D35E219621C270042BAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D35E719621C270042BAED /* XCTest.framework in Frameworks */,
+				079D35E919621C270042BAED /* UIKit.framework in Frameworks */,
+				079D35E819621C270042BAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079D35B819621C270042BAED = {
+			isa = PBXGroup;
+			children = (
+				079D35CA19621C270042BAED /* OneJob */,
+				079D35EC19621C270042BAED /* OneJobTests */,
+				079D35C319621C270042BAED /* Frameworks */,
+				079D35C219621C270042BAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079D35C219621C270042BAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079D35C119621C270042BAED /* OneJob.app */,
+				079D35E519621C270042BAED /* OneJobTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079D35C319621C270042BAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079D35C419621C270042BAED /* Foundation.framework */,
+				079D35C619621C270042BAED /* CoreGraphics.framework */,
+				079D35C819621C270042BAED /* UIKit.framework */,
+				079D35E619621C270042BAED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		079D35CA19621C270042BAED /* OneJob */ = {
+			isa = PBXGroup;
+			children = (
+				079D35D319621C270042BAED /* _JOBAppDelegate.h */,
+				079D35D419621C270042BAED /* _JOBAppDelegate.m */,
+				079D35D619621C270042BAED /* Main_iPhone.storyboard */,
+				079D35D919621C270042BAED /* Main_iPad.storyboard */,
+				079D35DC19621C270042BAED /* _JOBViewController.h */,
+				079D35DD19621C270042BAED /* _JOBViewController.m */,
+				079D35DF19621C270042BAED /* Images.xcassets */,
+				079D35CB19621C270042BAED /* Supporting Files */,
+			);
+			path = OneJob;
+			sourceTree = "<group>";
+		};
+		079D35CB19621C270042BAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				079D35CC19621C270042BAED /* OneJob-Info.plist */,
+				079D35CD19621C270042BAED /* InfoPlist.strings */,
+				079D35D019621C270042BAED /* main.m */,
+				079D35D219621C270042BAED /* OneJob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		079D35EC19621C270042BAED /* OneJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				079D35F219621C270042BAED /* OneJobTests.m */,
+				079D35ED19621C270042BAED /* Supporting Files */,
+			);
+			path = OneJobTests;
+			sourceTree = "<group>";
+		};
+		079D35ED19621C270042BAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				079D35EE19621C270042BAED /* OneJobTests-Info.plist */,
+				079D35EF19621C270042BAED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079D35C019621C270042BAED /* OneJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079D35F619621C270042BAED /* Build configuration list for PBXNativeTarget "OneJob" */;
+			buildPhases = (
+				079D35BD19621C270042BAED /* Sources */,
+				079D35BE19621C270042BAED /* Frameworks */,
+				079D35BF19621C270042BAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneJob;
+			productName = OneJob;
+			productReference = 079D35C119621C270042BAED /* OneJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079D35E419621C270042BAED /* OneJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079D35F919621C270042BAED /* Build configuration list for PBXNativeTarget "OneJobTests" */;
+			buildPhases = (
+				079D35E119621C270042BAED /* Sources */,
+				079D35E219621C270042BAED /* Frameworks */,
+				079D35E319621C270042BAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079D35EB19621C270042BAED /* PBXTargetDependency */,
+			);
+			name = OneJobTests;
+			productName = OneJobTests;
+			productReference = 079D35E519621C270042BAED /* OneJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079D35B919621C270042BAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = 1JOB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Eric Grondahl";
+				TargetAttributes = {
+					079D35E419621C270042BAED = {
+						TestTargetID = 079D35C019621C270042BAED;
+					};
+				};
+			};
+			buildConfigurationList = 079D35BC19621C270042BAED /* Build configuration list for PBXProject "OneJob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079D35B819621C270042BAED;
+			productRefGroup = 079D35C219621C270042BAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079D35C019621C270042BAED /* OneJob */,
+				079D35E419621C270042BAED /* OneJobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079D35BF19621C270042BAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D35DB19621C270042BAED /* Main_iPad.storyboard in Resources */,
+				079D35E019621C270042BAED /* Images.xcassets in Resources */,
+				079D35D819621C270042BAED /* Main_iPhone.storyboard in Resources */,
+				079D35CF19621C270042BAED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079D35E319621C270042BAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D35F119621C270042BAED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079D35BD19621C270042BAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D35DE19621C270042BAED /* _JOBViewController.m in Sources */,
+				079D35D519621C270042BAED /* _JOBAppDelegate.m in Sources */,
+				079D35D119621C270042BAED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079D35E119621C270042BAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D35F319621C270042BAED /* OneJobTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079D35EB19621C270042BAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079D35C019621C270042BAED /* OneJob */;
+			targetProxy = 079D35EA19621C270042BAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079D35CD19621C270042BAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D35CE19621C270042BAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		079D35D619621C270042BAED /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D35D719621C270042BAED /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		079D35D919621C270042BAED /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D35DA19621C270042BAED /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		079D35EF19621C270042BAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D35F019621C270042BAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079D35F419621C270042BAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		079D35F519621C270042BAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079D35F719621C270042BAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneJob/OneJob-Prefix.pch";
+				INFOPLIST_FILE = "OneJob/OneJob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		079D35F819621C270042BAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneJob/OneJob-Prefix.pch";
+				INFOPLIST_FILE = "OneJob/OneJob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		079D35FA19621C270042BAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneJob.app/OneJob";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneJob/OneJob-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OneJobTests/OneJobTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		079D35FB19621C270042BAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneJob.app/OneJob";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneJob/OneJob-Prefix.pch";
+				INFOPLIST_FILE = "OneJobTests/OneJobTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079D35BC19621C270042BAED /* Build configuration list for PBXProject "OneJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D35F419621C270042BAED /* Debug */,
+				079D35F519621C270042BAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079D35F619621C270042BAED /* Build configuration list for PBXNativeTarget "OneJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D35F719621C270042BAED /* Debug */,
+				079D35F819621C270042BAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		079D35F919621C270042BAED /* Build configuration list for PBXNativeTarget "OneJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D35FA19621C270042BAED /* Debug */,
+				079D35FB19621C270042BAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079D35B919621C270042BAED /* Project object */;
+}
